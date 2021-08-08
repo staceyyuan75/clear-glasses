@@ -125,6 +125,9 @@ header {
   .navbar-nav li:last-child a {
     padding-right: 0; }
 
+.navbar-brand img {
+  max-width: 80px; }
+
 /* Tablet */
 @media (max-width: 992px) {
   header {
@@ -153,11 +156,13 @@ header {
         font-size: 20px;
         line-height: 29px; }
       .navbar-nav li:last-child a {
-        padding-right: 1rem; } }
+        padding-right: 1rem; }
+  .navbar-brand img {
+    max-width: 48px; } }
 
 /**** content 設定 *****/
 .banner {
-  background-image: url("/assets/images/banner.png");
+  background-image: url("../images/banner.png");
   background-size: cover;
   background-position: center;
   height: 840px;
