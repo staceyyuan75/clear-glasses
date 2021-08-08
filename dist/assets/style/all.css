@@ -155,8 +155,8 @@ header {
         text-align: center;
         font-size: 20px;
         line-height: 29px; }
-      .navbar-nav li:last-child a {
-        padding-right: 1rem; }
+    .navbar-nav .nav-link {
+      padding: .5rem 0; }
   .navbar-brand img {
     max-width: 48px; } }
 
